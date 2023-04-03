@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:background="@android:color/holo_green_dark"
+       android:orientation="horizontal">
+
+
+
+      <LinearLayout
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+          android:orientation="vertical"
+          android:layout_marginLeft="20dp"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/pth">
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Cari Layanan, Makanan , dan Tujuan"
+             android:textColor="@android:color/darker_gray"
+             android:layout_margin="10dp"
+             />
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:orientation="vertical"
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="20dp"
+          android:background="@drawable/pth">
+
+         <ImageView
+             android:layout_width="12dp"
+             android:layout_height="17dp"
+             android:layout_gravity="center"
+             android:layout_marginTop="10dp"
+             android:src="@drawable/orang" />
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:background="@drawable/rounded_blue"
+       >
+      <LinearLayout
+          android:layout_width="150dp"
+          android:layout_height="80dp"
+          android:orientation="vertical"
+          android:background="@drawable/rounded_white"
+          android:layout_margin="10dp">
+
+         <ImageView
+             android:layout_width="130dp"
+             android:layout_height="40dp"
+             android:src="@drawable/gopay"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="5dp"/>
+
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Saldo Masih"
+             android:layout_marginLeft="20dp"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Kosong"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"/>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:layout_marginTop="-15dp">
+
+         <LinearLayout
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:background="@drawable/white"
+             android:layout_marginTop="40dp"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/panah_atas"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"/>
+
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Bayar"
+             android:textColor="@color/white"
+             android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:layout_marginTop="-15dp">
+
+         <LinearLayout
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:background="@drawable/white"
+             android:layout_marginTop="40dp"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"/>
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Isi Saldo"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             />
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:layout_marginTop="-15dp">
+
+         <LinearLayout
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:background="@drawable/white"
+             android:layout_marginTop="40dp"
+             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garis"
+                android:layout_gravity="center"
+                android:layout_marginTop="3dp"/>
+
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Eksplor"
+             android:textColor="@color/white"
+             android:textStyle="bold"/>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="2dp">
+
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/motor"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/mobil"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/food"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/send"
+          android:layout_weight="1"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp">
+
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/mart"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/tagihan"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/tix"
+          android:layout_weight="1"/>
+      <ImageView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:src="@drawable/lainnya"
+          android:layout_weight="1"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="350dp"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/rounded_white"
+       >
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/warga"/>
+
+
+      <SeekBar
+          android:layout_width="230dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center" />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/panah_kanan"
+          android:layout_gravity="center"/>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp">
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Belanja Makin Hemat"
+             android:textColor="@color/black"
+             android:textStyle="bold"/>
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/wajah_uang"
+             android:layout_marginLeft="2dp"/>
+      </LinearLayout>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Dapetin diskon dan harga specialnya di Tokopedia"
+          android:layout_marginTop="5dp"
+          android:textColor="@color/black"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Sekarang sebelum kehabisan!"
+          android:textColor="@color/black"/>
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:src="@drawable/pro"
+          android:layout_marginTop="10dp"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp">
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/home"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Beranda"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+         <ImageView
+             android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:src="@drawable/promo"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Promo"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/pesanan"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pesanan"/>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:orientation="vertical"
+          android:gravity="center"
+          >
+         <ImageView
+             android:layout_width="20dp"
+             android:layout_height="20dp"
+             android:src="@drawable/message"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Chat"/>
+      </LinearLayout>
+
+   </LinearLayout>
+   
+</LinearLayout>
